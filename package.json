@@ -1,0 +1,17 @@
+{
+  "name": "paisleesquad-viewer",
+  "version": "1.0.0",
+  "description": "Api practice page for my CoC clan paisleesquad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Practice",
+    "JSDOC",
+    "Front-End"
+  ],
+  "author": "AGDevs",
+  "license": "ISC"
+}

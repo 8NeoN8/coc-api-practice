@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>PaisleeSquad</title>
+  <script src="https://kit.fontawesome.com/680b73e3a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav id="nav" class="nav">
+
+    <div id="site-name" class="site-name">Clan viewer</div>
+    <div class="github-page"><a href="https://github.com/8NeoN8" target="_blank"><img src="/assets/img/github-mark.svg" alt="Github page" width="36px"></a></div>
+    <div class="tag-input">
+      <div class="clan-tag-input">
+        <input type="text" name="tag-search" id="tag-search" placeholder="Search clan tag">
+      </div>
+      <div class="search-button">
+        <button id="search">
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i>
+        </button>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Contains the clan banner, name, code and etc -->
+  <h1 id="header" class="header">
+    <div id="clan-emblem" class="clan-emblem"> Emblem</div>
+    <div id="clan-name" class="clan-name">PaisleeSquad</div>
+  </h1>
+
+  <main class="container">
+
+    <div id="base-picker" class="base-picker">
+
+      <button>
+        home village
+      </button>
+
+      <button>
+        builder base
+      </button>
+
+      <button>
+        clan capital
+      </button>
+
+    </div>
+
+    <section aria-labelledby="clan-statistics" class="section-clan-statistics">
+
+      <h2 id="clan-statistics" class="clan-statistics">Clan Stats</h2>
+
+      <div class="stats-list">
+        list of stats
+        <!-- .row*4>(.clan-stat-field>.stat-field-name+.stat-field-result)*4 -->
+
+      </div>
+
+    </section>
+  
+    <section aria-labelledby="member-list-title" class="section-member-list">
+
+      <h2 id="member-list-title" class="member-list-title">Member List</h2>
+
+      <ul id="member-list">
+
+        <li>List of clan members</li>
+
+      </ul>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer"></footer>
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
