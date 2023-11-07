@@ -5,6 +5,10 @@
   position: relative;
 }
 
+body{
+  background-color: #7d7572;
+}
+
 ::root{
   font-size: 18px;
 }
@@ -24,7 +28,6 @@
   display: flex;
   /* background-color: blue;
   padding: 1rem; */
-  border: 1px solid blue;
   align-items: center;
 }
 
@@ -38,9 +41,9 @@ input[type=text]{
   font-size: 1rem;
   padding: 0.3rem 1rem !important;
   margin: 0 !important;
-  border: none !important;
   border-radius: 2rem;
   width: 90%;
+  border: 1px solid black;
 }
 
 #search{
@@ -51,4 +54,26 @@ input[type=text]{
   border-color: black;
   background-color: white;
   border: 1px solid;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  background-color: lime;
+}
+
+.clan-emblem, .clan-name{
+  margin: auto;
+}
+
+.container{
+  background-color: #e8e8e0;
+  
+}
+
+.base-picker{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
 }

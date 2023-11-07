@@ -1,4 +1,4 @@
-### Api practice with the Clash of clans API
+# Api practice with the Clash of clans API
 
 This is an api practice Website for inputing your clan's tag and getting all of it's information
 
